@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b279b9;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:#70458d;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(222, 159, 224, 0.1);
+    text-align: center;
+}
+
+
+#taskInputContainer {
+    margin-bottom: 20px;
+}
+
+#newTask {
+    padding: 8px;
+    width: 70%;
+}
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px;
+    cursor: pointer;
+    color: #eee;
+    background-color: #70458d;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #70458d;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
