@@ -14,10 +14,15 @@ h1{
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(222, 159, 224, 0.1);
+    box-shadow: 0 0 10px rgba(245, 243, 245, 0.1);
     text-align: center;
 }
 
+.frase{
+    text-align: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 #taskInputContainer {
     margin-bottom: 20px;
@@ -34,6 +39,7 @@ button {
     cursor: pointer;
     color: #eee;
     background-color: #70458d;
+    border-radius: 3px;
 }
 
 ul {
@@ -52,7 +58,7 @@ li {
 }
 
 li button {
-    background-color: #70458d;
+    background-color: #db5b71;
     color: #fff;
     border-radius: 3px;
     padding: 5px 10px;
