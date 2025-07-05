@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarefas</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="frase">
-        <h4>"Organize sua vida, conquiste seus objetivos.
-            Sua jornada começa aqui, com nossa lista de
-             tarefas simplificada. Gerencie,
-            planeje e alcance mais a cada dia." 📌📅</h4>
-    </div>
-    
 
+<body>
     <div class="container">
         <h1>Lista de Tarefas</h1>
-        <div id="taskInputContainer">
-            <input type="text" id="newTask" placeholder="Adicionar nova tarefa">
-            <button onclick="addTask()">Adicionar</button>
+        <div class="input-wrapper">
+            <input type="text" id="newTask" placeholder="Digite sua tarefa ..." class="input">
+            <button onclick="addTask()" class="btn-add">
+                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="Add" class="btn-icon">
+            </button>
         </div>
+
         <ul id="taskList"></ul>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

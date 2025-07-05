@@ -8,7 +8,15 @@ function addTask() {
     }
 
     var listItem = document.createElement("li");
-    listItem.innerHTML = taskInput.value + '<button onclick="removeTask(this)">Remover</button>';
+
+    listItem.classList.add("list-item");
+
+    listItem.innerHTML = `
+  <span>${taskInput.value}</span>
+  <button onclick="removeTask(this)" class="btn-remove">
+    <img src="https://cdn-icons-png.flaticon.com/512/1214/1214428.png" alt="Remover" class="btn-icon">
+  </button>
+`;
     taskList.appendChild(listItem);
 
     taskInput.value = "";
